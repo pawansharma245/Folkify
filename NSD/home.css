@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=DynaPuff:wght@400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #000000; */
+    background-size: cover;
+    background-position: center;
+    /* font-family: 'roboto', sans-serif; */
+    background-image: url(homebg.jpg);
+
+}
+
+/* .container{
+    position: relative;
+    width: 90%;
+    height: 87vh;
+    border: 5px solid gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .img{
+    position: absolute;
+    width: 100%;
+    height:640px;
+    background: url('./bg.png');
+} */
+
+.next{
+    background: #000000;
+    color: rgb(198, 185, 109);
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 25px;
+    border: 2px solid rgb(198, 185, 109) ;
+    border-radius: 20px;
+}
+.logout{
+    font-family:'dosis';
+    position: absolute;
+    top: 30px;
+    right: 3%;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-size: 25px;
+    color: rgb(198, 185, 109);
+    background: none;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.greeting{
+    font-family:'dosis';
+    font-size: 100px;
+    color: rgb(236, 203, 16);
+    font-weight: 700;
+    text-transform: capitalize;
+    position: relative;
+    right: 25vw;
+    padding: 5px;
+    
+}
+.greeting2{
+    font-family:'dosis';
+    font-size: 100px;
+    color: rgb(236, 203, 16);
+    font-weight: 600;
+    text-transform: capitalize;
+    position: relative;
+    right: 25vw;
+    padding: 5px;
+}
+.greeting3{
+    font-family:'dosis';
+    font-size: 100px;
+    color: rgb(236, 203, 16);
+    font-weight: 700;
+    text-transform: capitalize;
+    position: relative;
+    right: 25vw;
+    padding: 5px;
+}
